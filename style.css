@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* univerasal */
+:root{
+    --navbar-height : 59px;
+}
+
+/* navigation bar*/
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+#navbar ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.05;
+    top: 0px;
+    left: 0px;
+   }
+    
+#logo{
+    margin: 5px 6px;
+}
+#logo img{
+    margin: 16px 23px;
+    height: 60px;
+
+}
+
+
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+#navbar ul a{
+    display: block;
+    padding: 13px 14px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+#navbar ul a:hover{
+   
+    color: black;
+    background-color: white;
+}
+
+/* welcome section */
+#home{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 420px;
+    
+
+}
+#home ::before{
+    content: "";
+    background: url('./food.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+}
+#home h1{
+    color:black ;
+    text-align: center;
+}
+#home p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+.primary{
+    font-family: "Roboto", sans-serif;
+
+    font-size: 3.2rem;
+    padding: 26px;
+    text-align: center;
+}
+.secondary{
+    font-family: "Open Sans", sans-serif;
+
+    font-size: 1.9rem;
+    padding: 23px;
+
+}
+.btn{
+    margin: 26px 1px;
+    padding: 2px 8px;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: grey;
+}
+
+/* service section  */
+
+#services{
+    display: flex;
+    margin : 24px; 
+   
+
+}
+#services .box{
+    border: 2px solid black;
+    padding: 17px 19px;
+    margin: 0px 11px;
+    border-radius: 32px;
+    background: oldlace;
+
+   
+
+}
+#services .box img{
+   height: 170px;
+   width: 260px;
+   margin: auto;
+   display: block;
+
+}
+#services .box p{
+    font-size: 1.0rem;
+    font-family: "Roboto", sans-serif;
+
+ }
+ 
+.center{
+    text-align: center;
+}
+
+
+/* client section */
+
+#client-section{
+height: 360px;
+background-color:lightgoldenrodyellow ;
+
+}
+
+
+#client{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.client-item{
+    padding: 30px;
+}
+
+#client img{
+    height: 120px;
+}
+
+#contact{
+    position: relative;
+    height: 200%;
+    width: 100%;
+    
+
+}
+#contact ::before{
+    content: "";
+    background: url('./background.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+
+
+ }
+
+#contact-box{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#contact-box input , #contact-box textarea{
+
+
+padding: 10px 10px;
+width: 100%;
+border-radius: 10px;
+font-size: 1.0rem;
+
+}
+
+
+.form-group{
+
+    padding: 6px 30px;
+}
+
+#contact-box form{
+    width: 50%;
+}
+
+#contact-box label{
+
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+footer{
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 9px 11px;
+}
+

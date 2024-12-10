@@ -1,0 +1,78 @@
+
+#services{
+    flex-direction: column;
+   
+
+}
+#navbar{
+    flex-direction: column;
+    height: 150px;
+
+}
+
+#logo img{
+    margin: 10px 23px;
+    height: 43px;
+}
+
+#navbar ul li a{
+    font-size: 1.3rem;
+    padding: 0px 5px;
+    padding-bottom: 10px;
+}
+
+#home{
+    height: 146px;
+    flex-direction: column;
+padding: 2px 14px;
+}
+
+
+#home ::before{
+  height: 45%;
+
+}
+
+#home p{
+   
+    font-size: 1.0rem;
+    
+}
+
+
+
+
+#client-section{
+    height: 470px;
+}
+
+#client{
+    flex-wrap: wrap;
+}
+    
+    
+#client img{
+    height: 85px;
+    width: 73px;
+
+}
+
+.primary{
+  
+    font-size: 1.3rem;
+    padding: 0px;
+   
+}
+
+
+#contact-box input , #contact-box textarea{
+
+
+    width: 140%;
+    font-size: 1.0rem;
+ }
+
+ .form-group{
+
+    padding: 3px 20px;
+}
